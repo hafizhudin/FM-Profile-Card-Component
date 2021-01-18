@@ -1,0 +1,42 @@
+// VARIABLES
+
+// colors
+$colorDarkGray: hsl(0, 0%, 59%);
+$colorDarkGrayishBlue: hsl(227, 10%, 46%);
+$colorVeryDarkBlue: hsl(229, 23%, 23%);
+$colorDarkCyan: hsl(185, 75%, 39%);
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  font-size: 18px;
+  color: $colorVeryDarkBlue;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: $colorDarkCyan;
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-position: right 40vw bottom 45vh, left 40vw top 45vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+p {
+  color: $colorDarkGrayishBlue;
+}
