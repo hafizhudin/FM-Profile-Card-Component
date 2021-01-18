@@ -41,17 +41,12 @@
   &__numbers {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    height: 50px;
     padding: 1.5rem;
     background-color: white;
-    &__item__number {
-      margin-top: 0.4rem;
-      font-size: 0.6em;
-      color: $colorDarkGray;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
     }
   }
 }
